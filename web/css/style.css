@@ -1,0 +1,98 @@
+/* Style the header */
+.header {
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(127deg, rgba(99,218,124,1) 0%, rgba(255,208,37,1) 100%);
+    font-family: 'Trebuchet MS';
+    color: white;
+    font-size: 15px;
+}
+/* Style the top navigation box */
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(127deg, rgba(99,218,124,1) 0%, rgba(255,208,37,1) 100%);
+    padding: 8px;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+/* Style the top navigation links */
+.topnav a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: green;
+}
+
+body {
+    background-color: white;
+}
+
+.returnhome{
+    font-size: 25px;
+    text-align: center;
+}
+
+ol {
+    color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #009900;
+    border: white;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.35s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #ff7b25;
+}
+
+.btn:hover span{
+    padding-right: 25px;
+}
+
+.btn:hover span:after{
+    opacity: 1;
+    right: 0;
+}
