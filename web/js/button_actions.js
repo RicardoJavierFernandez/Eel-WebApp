@@ -9,7 +9,7 @@ document.getElementById("brokerBtn").addEventListener("click", function createBr
 })
 
 document.getElementById("sepActBtn").addEventListener("click", function createSepActFile(){
-    window.alert("Report three is being generated.")
+    window.alert("Report three is being generated.");
     eel.create_excel_file();
 })
 
